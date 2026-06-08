@@ -1,10 +1,123 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Free Domain Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mushfiqur Rahman Fahim</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #0b0c10;
+            color: #c5c6c7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 550px;
+            width: 100%;
+            background: #1f2833;
+            /* Injects your picture as a top banner profile circle dynamically */
+            padding: 160px 40px 40px 40px; 
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            border-left: 4px solid #66fcf1;
+            background-image: url('profile.jpg');
+            background-repeat: no-repeat;
+            background-size: 100px 100px;
+            background-position: 40px 40px;
+            border-radius: 12px;
+        }
+        h1 {
+            color: #ffffff;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+        .username {
+            color: #66fcf1;
+            font-size: 0.95rem;
+            font-family: monospace;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #ffffff;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        p {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #a4b3c6;
+            margin-bottom: 15px;
+        }
+        ul {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+        li {
+            font-size: 0.95rem;
+            line-height: 1.8;
+            color: #a4b3c6;
+            padding-left: 15px;
+            position: relative;
+        }
+        li::before {
+            content: "•";
+            color: #66fcf1;
+            position: absolute;
+            left: 0;
+        }
+        .status {
+            display: inline-block;
+            background: rgba(102, 252, 241, 0.1);
+            color: #66fcf1;
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin-top: 15px;
+            font-family: monospace;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <p>Welcome to my brand new website hosted completely for free.</p>
+
+    <div class="container">
+        <h1>Mushfiqur Rahman Fahim</h1>
+        <div class="username">@runriff</div>
+        
+        <h2>About Me</h2>
+        <p>
+            Just a guy navigating life, experimenting with code, and trying to build cool things on the internet. I like keeping things simple, learning at my own pace, and seeing how deep the tech rabbit hole goes.
+        </p>
+
+        <h2>Current Routine</h2>
+        <ul>
+            <li>Spent way too much time staring at code blocks</li>
+            <li>Listening to music on repeat to keep focus</li>
+            <li>Exploring web development and hosting stuff for free</li>
+            <li>Trying to maintain a decent sleep schedule (failing)</li>
+        </ul>
+
+        <h2>The Goals</h2>
+        <p>
+            Right now, I'm focused on leveling up my tech skills, working on personal projects, and curating this tiny corner of the web. 
+        </p>
+        
+        <div class="status">// update: live and executing blueprints</div>
+    </div>
+
 </body>
 </html>
